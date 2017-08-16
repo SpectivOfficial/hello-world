@@ -86,7 +86,7 @@
 						{"type":"content","txt":"2. Please take my short course that I have crafted for you to speed things up. Then joint me in creating the future. I have played a role in changing the world once already with mobile communication and I believe we can do it a 2nd time with VR. Join me. It will be fun."},
                         {"type":"footer","txt":"anders@livetourlab.com"},
                         {"type":"row","buttons":[
-							{"txt":"GitHub","uri":"https://github.com/livetourlab"},
+							{"txt":"GitHub","uri":"https://github.com/livetourlab/live-tour-lab"},
 							{"txt":"Course > Create","uri":"https://livetourlab.com/course"}
                         ]}
 	                ],
@@ -97,7 +97,7 @@
                 }
             ],
             "photos":[
-                {"src":"ltlab-logo-2048x512b.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.6,"rotateY":142},
+                {"src":"live-tour-lab-logo.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.6,"rotateY":142},
                 {"src":"live-tour-lab-logo.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.6,"rotateY":215},
                 {"src":"live-tour-lab-logo.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.4,"rotateY":10,
 	                "opacity":0.2,"pretransform":[ {"translate": [-110, -10, 100]}, {"rotateY": 91} ] }
