@@ -1,0 +1,113 @@
+{
+	"name":"LiveTourLab Hello World",
+	"defaults":{
+		"infos":{
+			"icon":"icons/red-heart.png"
+		}
+	},
+	"firstSceneId":"Kitchen",
+	"scenes":[
+		{
+			"id":"Kitchen",
+			"photopanos":[
+				{"src":"1004-fraser-5-low.jpg","rotateY":200}
+			],
+			"navs":[
+				{"to":"Patio","txt":"Patio","rotateY":225}
+			],
+			"infos":[
+				{
+					"card":[
+						{"type":"image","src":"coffee-machine.jpg","ratio":1},
+						{"type":"header","txt":"What is it?"},
+						{"type":"content","txt":"A cinematic VR experience framework.\nOr simpler: A new media format."},
+						{"type":"content","txt":"Easier than game engines. More interactive than video streaming. More creative than scanning. Immersive on both VR and web-phone. Create with any camera. Open source. Static build, so no hosting lock-in. Simple JSON markup. Extend with custom code. For starters!"}
+
+					],
+					"rotateY":193
+				}
+			],
+			"preloads":[
+				{"src":"coffee-machine.jpg"},
+				{"src":"1004-fraser-9-low.jpg"}
+			]
+		},
+		{
+			"id":"Patio",
+			"photopanos":[
+				{"src":"1004-fraser-9-low.jpg","rotateY":270}
+			],
+            "navs":[
+                {"to":"Backyard","txt":"Customize","rotateY":111,"rotateX":6,
+                	"nextRotateY":130,
+                	"icon":"icons/red-heart-big.png","iconWidth":1.5,"iconHeight":1.5
+				}
+            ],
+			"infos":[
+				{
+					"card":[
+						{"type":"video","src":"hm-short.mp4","ratio":1.7},
+						{"type":"content","txt":"A format for more active experiences.","textColor":"white","fontSize":0.18},
+						{"type":"footer","txt":"Video attribution: H&M. A Swedish brand to love! Affordable quality, great attitude, great values.","textColor":"white"}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000011",
+					"icon":"icons/ideas-cinema.png",
+					"iconWidth":0.75,
+					"iconHeight":1.5,
+					"rotateY":305
+				}
+			],
+			"sounds":[
+				{"src":"sparrow.mp3","volume":1,"rotateY":160}
+			],
+			"videos":[
+				{
+					"src":"fire.mp4","imgWidth":512,"imgHeight":512,"cmWidth":0.259765625,"rotateY":180
+				}
+			],
+			"preloads":[
+				{"src":"1004-fraser-11-low.jpg"}
+			]
+		},
+		{
+			"id":"Backyard",
+			"photopanos":[
+				{"src":"1004-fraser-11-low.jpg","rotateY":350}
+			],
+            "infos":[
+                {
+	                "card":[                                        
+                        {"type":"image","src":"garden-table.jpg","ratio":1.9,"borderWidth":0},
+                        {"type":"header","txt":"Time for Code!"},
+                        {"type":"content","txt":"Follow the instructions in the Github ReadMe to add your React VR component to this scene. Easy and fast.","textColor":"#000000","fontSize":0.12},
+						{"type":"content","txt":"I hope you will enjoy LiveTourLab. We built the world's best live tour platform and now we give it away as open source. With great love and respect, I invite you to take part in creating this entirely new media format."},
+						{"type":"content","txt":"1. Please Star & Watch the repo on Github."},
+						{"type":"content","txt":"2. Please take my short course that I have crafted for you to speed things up. Then joint me in creating the future. I have played a role in changing the world once already with mobile communication and I believe we can do it a 2nd time with VR. Join me. It will be fun."},
+                        {"type":"footer","txt":"anders@livetourlab.com"},
+                        {"type":"row","buttons":[
+							{"txt":"GitHub","uri":"https://github.com/livetourlab"},
+							{"txt":"Course > Create","uri":"https://livetourlab.com/course"}
+                        ]}
+	                ],
+	                "width":3,
+	                "backgroundColor":"#ffffffee",
+	                "rotateY":0,
+	                "rotateX":5
+                }
+            ],
+            "photos":[
+                {"src":"ltlab-logo-2048x512b.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.6,"rotateY":142},
+                {"src":"live-tour-lab-logo.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.6,"rotateY":215},
+                {"src":"live-tour-lab-logo.png","imgWidth":2048,"imgHeight":311,"cmWidth":0.4,"rotateY":10,
+	                "opacity":0.2,"pretransform":[ {"translate": [-110, -10, 100]}, {"rotateY": 91} ] }
+            ],
+			"preloads":[
+				{"src":"garden-table.jpg"}
+			]
+		}
+	]
+}
+
+
+
