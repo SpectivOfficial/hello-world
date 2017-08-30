@@ -81,13 +81,14 @@
                         {"type":"image","src":"garden-table.jpg","ratio":1.9,"borderWidth":0},
                         {"type":"header","txt":"Time for Code!"},
                         {"type":"content","txt":"Follow the instructions in the Github ReadMe to add your React VR component to this scene. Easy and fast.","textColor":"#000000","fontSize":0.12},
-						{"type":"content","txt":"I hope you will enjoy LiveTourLab. We built the world's best live tour platform and now we give it away as open source. With great love and respect, I invite you to take part in creating this entirely new media format."},
-						{"type":"content","txt":"1. Please Star & Watch the repo on Github."},
-						{"type":"content","txt":"2. Please take my short course that I have crafted for you to speed things up. Then joint me in creating the future. I have played a role in changing the world once already with mobile communication and I believe we can do it a 2nd time with VR. Join me. It will be fun."},
+						{"type":"content","txt":"I hope you will enjoy LiveTourLab. We built the world's best live tour platform and now we give it away for free as open source, challenging several billion dollar companies. With great love and respect, I invite you to take part in creating this entirely new media format."},
+						{"type":"content","txt":"Please Star & Watch the repo on Github. It matters. And it would mean a great deal to me. Thank you"},
                         {"type":"footer","txt":"anders@livetourlab.com"},
                         {"type":"row","buttons":[
 							{"txt":"GitHub","uri":"https://github.com/livetourlab/live-tour-lab"},
-							{"txt":"Course > Create","uri":"https://livetourlab.com/course"}
+							{"txt":"E-mail","uri":"mailto:anders@livetourlab.com"},
+							{"txt":"Msg","uri":"https://m.me/livetourlab"},
+							{"txt":"Call","uri":"tel:0123456789"}
                         ]}
 	                ],
 	                "width":3,
